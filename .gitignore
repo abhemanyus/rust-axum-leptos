@@ -1,0 +1,5 @@
+/target
+Test.db*
+/dist
+/pkg
+.env
