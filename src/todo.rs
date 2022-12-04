@@ -8,7 +8,7 @@ cfg_if! {
         use sqlx::{Connection, SqliteConnection};
 
         pub async fn db() -> Result<SqliteConnection, ServerFnError> {
-            Ok(SqliteConnection::connect("sqlite:Todos.db").await.map_err(|e| ServerFnError::ServerError(e.to_string()))?)
+            Ok(SqliteConnection::connect("sqlite:Test.db").await.map_err(|e| ServerFnError::ServerError(e.to_string()))?)
         }
 
         pub fn register_server_functions() {

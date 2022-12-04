@@ -19,7 +19,7 @@ futures = "0.3.25"
 gloo-net = { version = "0.2.5", features = ["http"] }
 http = { version = "0.2.8", optional = true }
 leptos = { version = "0.0.19", default-features = false, features = ["serde"] }
-leptos_axum = { version = "0.0.2", default-features = false, optional = true }
+leptos_axum = { version = "0.0.3", default-features = false, optional = true }
 leptos_meta = { version = "0.0.4", default-features = false }
 leptos_router = { version = "0.0.5", default-features = false }
 log = "0.4.17"
